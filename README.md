@@ -1,0 +1,1 @@
+k apply -f opentelemetry-operator/instrumentation.yaml 
