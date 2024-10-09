@@ -20,7 +20,7 @@ Execute o seguinte comando para instalar o OpenTelemetry Operator no namespace `
 helm repo add open-telemetry https://open-telemetry.github.io/opentelemetry-helm-charts
 helm repo update
 
-helm install opentelemetry-operator open-telemetry/opentelemetry-operator -f opentelemetry-operator/values.yaml -n monitoring
+helm install opentelemetry-operator open-telemetry/opentelemetry-operator -f values.yaml -n monitoring
 ```
 
 Isso irá instalar o Operator no namespace `monitoring`, com as configurações definidas no arquivo `values.yaml`.
